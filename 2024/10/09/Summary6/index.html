@@ -1,0 +1,855 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="独步星尘">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="$BO\sim BT$">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Summary6">
+<meta property="og:url" content="http://example.com/2024/10/09/Summary6/index.html">
+<meta property="og:site_name" content="Sao&amp;i_T@ng">
+<meta property="og:description" content="$BO\sim BT$">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/zc6vpakf.png">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/qutcpefs.png">
+<meta property="article:published_time" content="2024-10-09T10:54:13.000Z">
+<meta property="article:modified_time" content="2024-10-09T11:08:09.553Z">
+<meta property="article:author" content="独步星尘">
+<meta property="article:tag" content="I 💖 [PUAA]">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/zc6vpakf.png">
+  
+  
+  
+  <title>Summary6 - Sao&amp;i_T@ng</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Haike</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Summary6"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-10-09 18:54" pubdate>
+          2024年10月9日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          3.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          28 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Summary6</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>$BO\sim BT$</p>
+<span id="more"></span>
+
+<h1 id="BO-钓鱼题"><a href="#BO-钓鱼题" class="headerlink" title="BO 钓鱼题"></a><code>BO</code> 钓鱼题</h1><p>时间限制：1000ms  内存限制：65536kb</p>
+<p>通过率：470&#x2F;534 <code>(88.01%) </code>  正确率：470&#x2F;895 <code>(52.51%)</code></p>
+<h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>Ender_hzEnder_hz 遇到了这样一套钓鱼题，但是他太弱了，于是来请教了<strong>会程设的</strong>你。请你帮他完成这套题目。</p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>Ender_hzEnder_hz 拿到的题目是这样的：</p>
+<ol>
+<li>这道题的答案是：<br><code>A.</code> $A$     <code>B.</code> $B$     <code>C.</code> $C$     <code>D.</code> $D$</li>
+<li>第 55 题的答案是：<br><code>A.</code> $C$     <code>B.</code> $D$     <code>C.</code> $A$     <code>D.</code> $B$</li>
+<li>以下选项中哪一题的答案与其他三项不同：<br><code>A.</code> 第 $3$ 题     <code>B.</code> 第 $6$ 题     <code>C.</code> 第 $2$ 题     <code>D.</code> 第 $4$ 题</li>
+<li>以下选项中哪两题的答案相同：<br><code>A.</code> 第 $1,5$ 题     <code>B.</code> 第 $2,7$ 题     <code>C.</code> 第 $1,9$ 题     <code>D.</code> 第 $6,10$ 题</li>
+<li>以下选项中哪一题的答案与本题相同：<br><code>A.</code> 第 $8$ 题     <code>B.</code> 第 $4$ 题     <code>C.</code> 第 $9$ 题     <code>D.</code> 第 $7$ 题</li>
+<li>以下选项中哪两题的答案与第 88 题相同：<br><code>A.</code> 第 $2,4$ 题     <code>B.</code> 第 $1,6$ 题     <code>C.</code> 第 $3,10$ 题     <code>D.</code> 第 $5,9$ 题</li>
+<li>在此十道题中，被选中次数最少的选项字母为：<br><code>A.</code> $C$     <code>B.</code> $B$     <code>C.</code> $A$     <code>D.</code> $D$</li>
+<li>以下选项中哪一题的答案与第 11 题的答案在字母表中不相邻：<br><code>A.</code> 第 $7$ 题     <code>B.</code> 第 $5$ 题     <code>C.</code> 第 $2$ 题     <code>D.</code> 第 $10$ 题</li>
+<li>已知 ⌈⌈第 $1$ 题和第 $6$ 题的答案相同⌋⌋ 与 ⌈⌈第 XX 题和第 $5$ 题的答案相同⌋⌋ 的真假性相反，那么 XX 为：<br><code>A.</code> $6$     <code>B.</code> $10$     <code>C.</code> $2$     <code>D.</code> $9$</li>
+<li>在此 $10$ 道题中，$ABCD$ 四个字母出现次数最多与最少者的差为：<br><code>A.</code> $3$     <code>B.</code> $2$     <code>C.</code> $4$     <code>D.</code> $1$</li>
+</ol>
+<p>请你用任意方法（抄袭除外）完成这道题并提交答案。</p>
+<h2 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h2><p>无</p>
+<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><p>一行 $10$ 个大写字母 $a_1a_2…a_{10}$，不含空格，$a_i\in${<code>A</code>,<code>B</code>,<code>C</code>,<code>D</code>}，表示第 $i$ 题的答案。</p>
+<p>注意是你的程序 <strong>输出</strong> 答案，而非直接提交选项！</p>
+<h2 id="输出样例"><a href="#输出样例" class="headerlink" title="输出样例"></a>输出样例</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">AAAAAAAAAA</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Hint"><a href="#Hint" class="headerlink" title="Hint"></a>Hint</h2><ul>
+<li>输出样例仅供格式参考，不代表真实答案；</li>
+<li>如果你想，可以试试手算；</li>
+<li>如果认为某道题的判断难以实现，可以尝试跳过，最后人工核验。</li>
+</ul>
+<p>Author: Ender_hzEnder_hz.</p>
+<h3 id="Think"><a href="#Think" class="headerlink" title="Think"></a>Think</h3><blockquote>
+<p>网上的一道逻辑题，程序化解决就是对选项节点进行 dfs 暴力搜索</p>
+</blockquote>
+<h1 id="BP-宝石迷阵-Bejeweled"><a href="#BP-宝石迷阵-Bejeweled" class="headerlink" title="BP 宝石迷阵 (Bejeweled)"></a><code>BP</code> 宝石迷阵 (Bejeweled)</h1><p>时间限制：1000ms  内存限制：65536kb</p>
+<p>通过率：4&#x2F;31 <code>(12.90%) </code>  正确率：4&#x2F;114 <code>(3.51%)</code></p>
+<h2 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h2><p>WIKI 最近迷恋上了宝石迷阵, 她给她最好的朋友 NonFriedChips 出了一道题, 做不出来要狠狠惩罚 NonFriedChips</p>
+<p>NonFriedChips 不想被 WIKI 狠狠惩罚, 于是她找到了你, 想让你帮她做出来这道题</p>
+<p>注意, 玩过宝石迷阵并不会帮助理解题意, 请仔细阅读, 该题和普通三消规则并不相同</p>
+<p>现在有 $n$ 个宝石排成一列, 每个宝石有一个颜色 $a$</p>
+<p>每次操作都将进行以下两步</p>
+<ol>
+<li>选择不在最后的一个宝石 $i$, 且有宝石颜色标号 $a_i&#x3D;i$</li>
+<li>消除该宝石及它紧邻后面的一个宝石, 消除之后后面的宝石将会向前移动与前面部分相连</li>
+</ol>
+<p>请求出你最多能操作的次数</p>
+<h2 id="输入-1"><a href="#输入-1" class="headerlink" title="输入"></a>输入</h2><p>每个测试包含多个测试用例。输入的第一行包含一个整数 $t (1≤t≤100)$ —— 测试用例的数量。每个测试用例的描述如下：</p>
+<p>每个测试用例的第一行包含一个整数 $n (1≤n≤800)$ —— 宝石的数量</p>
+<p>每个测试用例的第二行包含 $n$ 个整数 $a_1,a_2,…,a_n (1≤a_i≤n)$——每个宝石的颜色</p>
+<p>保证所有测试用例中的 $n$ 之和不超过 800</p>
+<h2 id="输出-1"><a href="#输出-1" class="headerlink" title="输出"></a>输出</h2><p>对于每个测试用例，输出一个整数 —— 可以执行操作的最大次数。</p>
+<h2 id="样例输入"><a href="#样例输入" class="headerlink" title="样例输入"></a>样例输入</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-number">1</span><br><span class="hljs-number">5</span><br><span class="hljs-symbol">1 </span><span class="hljs-number">5</span> <span class="hljs-number">3</span> <span class="hljs-number">2</span> <span class="hljs-number">4</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例输出"><a href="#样例输出" class="headerlink" title="样例输出"></a>样例输出</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">2<br></code></pre></td></tr></table></figure>
+
+
+
+<h1 id="BQ-身高问题（concert）"><a href="#BQ-身高问题（concert）" class="headerlink" title="BQ 身高问题（concert）"></a><code>BQ</code> 身高问题（concert）</h1><p>时间限制：1000ms  内存限制：28672kb</p>
+<p>通过率：6&#x2F;21 <code>(28.57%) </code>  正确率：6&#x2F;64 <code>(9.38%)</code></p>
+<h2 id="题目描述-2"><a href="#题目描述-2" class="headerlink" title="题目描述"></a>题目描述</h2><p>日本演唱会门票的售卖方式是先抽后卖，所以如果想要抢到一个好的位置一定不要忘记参与抽选活动哦！由于位置抽选的方式是随机的，可能会在观看演唱会时出现这种情况：前面的人比后面的人高，导致到后面的看不到小绿毛。</p>
+<p>同一排上的观众是不会相互遮挡的，所以<strong>我们在这里只在意一列长度为 $n$ 的座位</strong>。从舞台向外将座位编号为 1,2,…,n1,2,…,n，且这 $n$ 的人的身高是 1,2,…,n1,2,…,n。如果<strong>位置 $i$ 的人前面有 aa 个比他要高的人，那么他就会产生 aa 点怒气</strong>。对于这 $n$ 个人，一个座位顺序的怒气值 AA 是所有人的<strong>怒气和</strong>，每个人坐到每个位置的<strong>概率是相等的</strong>。你坐在 SVIP 座，所以不参与排座，看着他们生气会产生 kA+A2kA+A2 的惬意（什么资本家。。。）。</p>
+<p>现在你想知道，对于所有可能的座位顺序，你产生的惬意<strong>总和</strong>。答案对 109+7109+7 取模。</p>
+<blockquote>
+<p>简要题意：</p>
+<p>设 PP 为任意一个 1∼n1∼n 的排列，τ(P)τ(P) 为其中的逆序对个数，求（答案对 109+7109+7 取模）</p>
+<p>∑p∈permutation(n)(kτ(P)+τ2(P))∑p∈permutation⁡(n)(kτ(P)+τ2(P))</p>
+</blockquote>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h3><p>本题为多组数据，第一行为数据组数 TT。</p>
+<p>对于每组数据，一行两个正整数 $n$，kk。意义为题目中所述。</p>
+<h3 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h3><p>对于每组数据，一行一个整数。</p>
+<h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><h4 id="输入-1"><a href="#输入-1" class="headerlink" title="输入 #1"></a>输入 #1</h4><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-number">1</span><br><span class="hljs-symbol">3 </span><span class="hljs-number">2</span><br></code></pre></td></tr></table></figure>
+
+<h4 id="输出-1"><a href="#输出-1" class="headerlink" title="输出 #1"></a>输出 #1</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">40<br></code></pre></td></tr></table></figure>
+
+<h3 id="说明-提示"><a href="#说明-提示" class="headerlink" title="说明&#x2F;提示"></a>说明&#x2F;提示</h3><p>对于 10%10% 的数据：T&#x3D;1,n≤10,k≤2T&#x3D;1,n≤10,k≤2</p>
+<p>对于 30%30% 的数据：T&#x3D;1,n≤100,k≤2T&#x3D;1,n≤100,k≤2</p>
+<p>另外有 5%5% 的数据：n&#x3D;1,k≤1e9n&#x3D;1,k≤1e9</p>
+<p>对于 100%100% 的数据：∑n≤107,T≤106,2≤k≤109∑n≤107,T≤106,2≤k≤109</p>
+<p>对于 0%0% 的数据：∑n≤1012∑n≤1012</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/zc6vpakf.png" srcset="/img/loading.gif" lazyload alt="img"></p>
+<h1 id="BR-捅似你喵"><a href="#BR-捅似你喵" class="headerlink" title="BR 捅似你喵"></a><code>BR</code> 捅似你喵</h1><p>时间限制：2000ms  内存限制：65536kb</p>
+<p>通过率：3&#x2F;20 <code>(15.00%) </code>  正确率：3&#x2F;53 <code>(5.66%)</code></p>
+<h2 id="题目背景-1"><a href="#题目背景-1" class="headerlink" title="题目背景"></a>题目背景</h2><p>“你吃的是什么喵？分我一点喵？什么，这不是我的分吗喵！不要吃我的分喵！不要吃了喵！捅似你喵！捅似你喵！捅似你喵！”长久地被炸鱼勾折磨，SuB 对炸鱼勾的怨念越来越深了。在一个月黑风高的夜晚，SuB 黑进了游戏的服务器，并锁定了几个炸鱼勾的账号，现在他准备将他们匹配到一起，体会体会掉分的痛苦！</p>
+<h2 id="题目描述-3"><a href="#题目描述-3" class="headerlink" title="题目描述"></a>题目描述</h2><p>SuB 将炸鱼勾排成了一个 n×mn×m 的矩阵，他每次可以选择将<strong>任意一个子矩阵</strong>中的炸鱼勾分配到一个房间，并且在暗箱操作下，他可以保证每个人都能掉 <strong>1</strong> 分。</p>
+<p>但是，由于段位保护，如果一个炸鱼勾的分数归零，那么他将无法再被匹配进房间，即是说，炸鱼勾的分数<strong>不能为负数</strong>。</p>
+<p>现在，SuB 想知道，他最少需要操作几次，才可以使所有炸鱼勾的分数归零。</p>
+<h2 id="输入-2"><a href="#输入-2" class="headerlink" title="输入"></a>输入</h2><p>第一行两个正整数 $n$ 和 $m$ ；</p>
+<p>接下来 $n$ 行，每行 mm 个正整数 ai,jai,j ，表示炸鱼勾的初始分数。</p>
+<h2 id="输出-2"><a href="#输出-2" class="headerlink" title="输出"></a>输出</h2><p>共一个数，表示 SuB 最少所需的分配次数。</p>
+<h2 id="输入样例"><a href="#输入样例" class="headerlink" title="输入样例"></a>输入样例</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-symbol">3 </span><span class="hljs-number">4</span><br><span class="hljs-symbol">2 </span><span class="hljs-number">4</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span><br><span class="hljs-symbol">4 </span><span class="hljs-number">8</span> <span class="hljs-number">8</span> <span class="hljs-number">4</span><br><span class="hljs-symbol">2 </span><span class="hljs-number">4</span> <span class="hljs-number">4</span> <span class="hljs-number">2</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例-1"><a href="#输出样例-1" class="headerlink" title="输出样例"></a>输出样例</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">8<br></code></pre></td></tr></table></figure>
+
+<h2 id="样例解释"><a href="#样例解释" class="headerlink" title="样例解释"></a>样例解释</h2><p><img src="https://cdn.luogu.com.cn/upload/image_hosting/qutcpefs.png" srcset="/img/loading.gif" lazyload alt="img"></p>
+<p>如图所示，分别将这四个子矩阵中的炸鱼勾分配到一起各 22 次，即可使所有炸鱼勾的分数归零。</p>
+<h2 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h2><ul>
+<li>对于 20%20% 的数据， 1≤n,m≤101≤n,m≤10</li>
+<li>对于 60%60% 的数据， 1≤n,m≤1001≤n,m≤100</li>
+<li>对于 100%100% 的数据， 1≤n,m≤200,0≤ai,j≤1061≤n,m≤200,0≤ai,j≤106</li>
+</ul>
+<h2 id="Not-Hint"><a href="#Not-Hint" class="headerlink" title="Not Hint"></a>Not Hint</h2><p>似了喵。。</p>
+<h1 id="BS-Contrasty-Angeles"><a href="#BS-Contrasty-Angeles" class="headerlink" title="BS Contrasty Angeles"></a><code>BS</code> Contrasty Angeles</h1><p>时间限制：1000ms  内存限制：65536kb</p>
+<p>通过率：6&#x2F;16 <code>(37.50%) </code>  正确率：6&#x2F;36 <code>(16.67%)</code></p>
+<h2 id="题目背景-2"><a href="#题目背景-2" class="headerlink" title="题目背景"></a>题目背景</h2><p>露薇娅和芦苇鸭是一体两面的好朋友。</p>
+<p>她们住在环形小镇的两端。环形小镇从 11 到 $n$ 顺序编号，共有 $n$ 条双向道路，露薇娅住在 ss，而卤味鸭住在 $t$。</p>
+<p>这天，露薇娅收掉了定数最高的魔王曲「Contrasty Angeles」，想要去和芦苇鸭炫耀一下。</p>
+<p>但是天空依然在下着雨。虽然她并不会被雨淋湿，也不会因为淋雨而陷入梦境，但经过水坑仍是很麻烦的事情。</p>
+<p>于是她把这个问题交给了你，想要知道：假设每个道路的长度在整数区间 [1,m][1,m] 中随机选取且已知，从 ss 到 $t$ 最短路径的长度期望是多少？</p>
+<p>同时，她发现你可能不会分数的模运算，于是她为了让你能够输出整数，你可以输出期望值乘以 mnmn。</p>
+<p>同时由于答案可能非常大，你的答案应该对 109+7109+7 取模。</p>
+<h2 id="题目描述-4"><a href="#题目描述-4" class="headerlink" title="题目描述"></a>题目描述</h2><p><strong>与上文题目背景等价。</strong></p>
+<p>给定一个 $n$ 个节点的环，节点依次编号为 1,2,3,⋯,n1,2,3,⋯,n。</p>
+<p>很明显该环有双向边 (1,2),(2,3),(3,4),⋯(n−1,n),(n,1)(1,2),(2,3),(3,4),⋯(n−1,n),(n,1)，共有 $n$ 条边。</p>
+<p>通过这些边可以从一个节点走到相邻的节点上。显然任意两个节点之间可以互相到达。</p>
+<p>给定正整数 $m$，这 $n$ 条边的距离可能在 { 1,2,3,⋯,m−1,m1,2,3,⋯,m−1,m } 中等概率随机选取。</p>
+<p>显然，这 $n$ 条边各有 $m$ 种可能，所以一共有 mnmn 种可能的不同选取方案。</p>
+<p>给定起点 ss 和终点 $t$，求从 ss 到 $t$ 最短路径在这 mnmn 种情况下的和。</p>
+<p>答案对 109+7109+7 取模。</p>
+<h2 id="形式化题面"><a href="#形式化题面" class="headerlink" title="形式化题面"></a>形式化题面</h2><p><strong>与上文题目描述等价。</strong></p>
+<p>我们令从 vv 到 v+1v+1 的边 (v,v+1)(v,v+1) 的长度设为 evev。特别地，边 (n,1)(n,1) 的长度为 enen。</p>
+<p>求：</p>
+<p>answer&#x3D;∑e1&#x3D;1m∑e2&#x3D;1m⋯∑en&#x3D;1mdistance(s,t)mod109+7&#x3D;∑(e1,e2,⋯,en)∈1,2,⋯,mnmin{es+⋯+et−1,et+⋯+en+e1+⋯+es−1}mod109+7answer&#x3D;∑e1&#x3D;1m∑e2&#x3D;1m⋯∑en&#x3D;1mdistance(s,t)mod109+7&#x3D;∑(e1,e2,⋯,en)∈1,2,⋯,mnmin{es+⋯+et−1,et+⋯+en+e1+⋯+es−1}mod109+7</p>
+<h2 id="输入格式-1"><a href="#输入格式-1" class="headerlink" title="输入格式"></a>输入格式</h2><p>共两行，第一行为两个由空格分隔的正整数n,mn,m，第二行为两个由空格分隔的正整数 s,ts,t。</p>
+<h2 id="输出格式-1"><a href="#输出格式-1" class="headerlink" title="输出格式"></a>输出格式</h2><p>一行一个整数，代表答案。</p>
+<h2 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-symbol">3 </span><span class="hljs-number">2</span><br><span class="hljs-symbol">1 </span><span class="hljs-number">2</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">12<br></code></pre></td></tr></table></figure>
+
+<h2 id="样例解释-1"><a href="#样例解释-1" class="headerlink" title="样例解释 #1"></a>样例解释 #1</h2><p>这是一个节点数为 33 的环，共 33 条边，每条边长度在{ 1,21,2 } 间随机，共 23&#x3D;823&#x3D;8 种情况。要找的路径从 11 到 22。</p>
+<p>当边 (1,2)(1,2) 长度为 11 时，最短路径长度一定是 11，共 44 种情况。</p>
+<p>当边 (1,2)(1,2) 长度为 22 时，最短路径长度一定是 22，共 44 种情况。</p>
+<p>答案为 1×4+2×4&#x3D;121×4+2×4&#x3D;12。</p>
+<h2 id="样例输入-2"><a href="#样例输入-2" class="headerlink" title="样例输入 #2"></a>样例输入 #2</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-symbol">4 </span><span class="hljs-number">3</span><br><span class="hljs-symbol">2 </span><span class="hljs-number">4</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例输出-2"><a href="#样例输出-2" class="headerlink" title="样例输出 #2"></a>样例输出 #2</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">272<br></code></pre></td></tr></table></figure>
+
+<h2 id="样例解释-2"><a href="#样例解释-2" class="headerlink" title="样例解释 #2"></a>样例解释 #2</h2><p>这是一个节点数为 44 的环，共 44 条边，每条边长度在 { 1,2,31,2,3 } 间随机，共 34&#x3D;8134&#x3D;81 种情况。要找的路径从 22 到 44。</p>
+<p>可以发现有两条路可走：A:2→3→4A:2→3→4 或 B:2→1→4B:2→1→4。</p>
+<p>可以证明，路径 A,BA,B 均有 32&#x3D;932&#x3D;9 种可能，长度为 2,3,4,5,62,3,4,5,6 的可能分别为 1,2,3,2,11,2,3,2,1。</p>
+<p>因此，路径 A,BA,B 长度最小值可能是 2,3,4,5,62,3,4,5,6，可能为 17,28,27,8,117,28,27,8,1。</p>
+<p>答案为 2×17+3×28+4×27+5×8+6×1&#x3D;2722×17+3×28+4×27+5×8+6×1&#x3D;272。</p>
+<h2 id="样例输入-3"><a href="#样例输入-3" class="headerlink" title="样例输入 #3"></a>样例输入 #3</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-symbol">8 </span><span class="hljs-number">6</span><br><span class="hljs-symbol">2 </span><span class="hljs-number">4</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例输出-3"><a href="#样例输出-3" class="headerlink" title="样例输出 #3"></a>样例输出 #3</h2><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dns"><span class="hljs-number">11755310</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例输入-4"><a href="#样例输入-4" class="headerlink" title="样例输入 #4"></a>样例输入 #4</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-symbol">40 </span><span class="hljs-number">50</span><br><span class="hljs-symbol">20 </span><span class="hljs-number">30</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例输出-4"><a href="#样例输出-4" class="headerlink" title="样例输出 #4"></a>样例输出 #4</h2><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dns"><span class="hljs-number">536456982</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="数据范围-1"><a href="#数据范围-1" class="headerlink" title="数据范围"></a>数据范围</h2><p>对于 30%30% 的数据，n≤5,m≤5,s&#x3D;1,t&#x3D;$n$≤5,m≤5,s&#x3D;1,t&#x3D;n。</p>
+<p>对于 80%80% 的数据，n≤50,m≤50n≤50,m≤50。</p>
+<p>对于 100%100% 的数据，1≤s≤t≤n≤500,m≤5001≤s≤t≤n≤500,m≤500。</p>
+<h2 id="Hint-1"><a href="#Hint-1" class="headerlink" title="Hint"></a>Hint</h2><p>一个方便理解的样例：</p>
+<p>当 n&#x3D;6,s&#x3D;1,t&#x3D;5,e1&#x3D;1,e2&#x3D;2,e3&#x3D;3,e4&#x3D;4,e5&#x3D;5,e6&#x3D;6n&#x3D;6,s&#x3D;1,t&#x3D;5,e1&#x3D;1,e2&#x3D;2,e3&#x3D;3,e4&#x3D;4,e5&#x3D;5,e6&#x3D;6 时：</p>
+<p>从起点 s&#x3D;1s&#x3D;1 到终点 t&#x3D;5t&#x3D;5 的最短路径长度为 1+2+3+4&#x3D;101+2+3+4&#x3D;10。另一条路的长度为 5+6&#x3D;115+6&#x3D;11，不是最短路径。</p>
+<p>哎音游人真的是</p>
+<h1 id="BT-mod-2024"><a href="#BT-mod-2024" class="headerlink" title="BT mod 2024"></a><code>BT</code> mod 2024</h1><p>时间限制：1000ms  内存限制：65536kb</p>
+<p>通过率：239&#x2F;364 <code>(65.66%) </code>  正确率：239&#x2F;1068 <code>(22.38%)</code></p>
+<h2 id="题目背景-3"><a href="#题目背景-3" class="headerlink" title="题目背景"></a>题目背景</h2><p>本题由同学供题，助教代为上传</p>
+<h2 id="题目描述-5"><a href="#题目描述-5" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入两个自然数 m,nm,n，求出 $n$ 除以 $m$ 的余数。</p>
+<h2 id="输入-3"><a href="#输入-3" class="headerlink" title="输入"></a>输入</h2><p>两个自然数 m,nm,n。</p>
+<h2 id="输出-3"><a href="#输出-3" class="headerlink" title="输出"></a>输出</h2><p>$n$ 除以 $m$ 的余数。</p>
+<h2 id="输入样例-1"><a href="#输入样例-1" class="headerlink" title="输入样例"></a>输入样例</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs">91<br>1000000000000000000000000<br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例-2"><a href="#输出样例-2" class="headerlink" title="输出样例"></a>输出样例</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">1<br></code></pre></td></tr></table></figure>
+
+<h2 id="数据范围-2"><a href="#数据范围-2" class="headerlink" title="数据范围"></a>数据范围</h2><p>$1≤m≤10^9,0≤n&lt;10^{106}$</p>
+<p>出题人：tb148</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/I-%F0%9F%92%96-PUAA/" class="print-no-link">#I 💖 [PUAA]</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Summary6</div>
+      <div>http://example.com/2024/10/09/Summary6/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>独步星尘</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年10月9日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2024/10/09/Summary7/" title="Summary7">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Summary7</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/10/09/Summary5/" title="Summary5">
+                        <span class="hidden-mobile">Summary5</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>

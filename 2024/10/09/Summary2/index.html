@@ -1,0 +1,915 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="独步星尘">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="$O\sim T$">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Summary2">
+<meta property="og:url" content="http://example.com/2024/10/09/Summary2/index.html">
+<meta property="og:site_name" content="Sao&amp;i_T@ng">
+<meta property="og:description" content="$O\sim T$">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/m7zo4eck.png">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/3mvp8erd.png">
+<meta property="og:image" content="https://cfrating.baoshuo.dev/rating?username=cwz2024&style=plastic">
+<meta property="article:published_time" content="2024-10-09T10:45:11.000Z">
+<meta property="article:modified_time" content="2024-10-09T13:14:06.491Z">
+<meta property="article:author" content="独步星尘">
+<meta property="article:tag" content="I 💖 [PUAA]">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/m7zo4eck.png">
+  
+  
+  
+  <title>Summary2 - Sao&amp;i_T@ng</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Haike</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Summary2"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-10-09 18:45" pubdate>
+          2024年10月9日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          35 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Summary2</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>$O\sim T$</p>
+<span id="more"></span>
+<h1 id="O-更好的isprime"><a href="#O-更好的isprime" class="headerlink" title="O 更好的isprime"></a><code>O</code> 更好的isprime</h1><p>时间限制：1500ms  内存限制：65536kb</p>
+<p>通过率：399&#x2F;418 <code>(95.45%) </code>  正确率：399&#x2F;708 <code>(56.36%)</code></p>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>传统的判断素数的方式都是从 2 枚举到$ ⌊\sqrt{n}⌋$，试图寻找 $n$ 的因数，如果找不到则说明 $n$ 是素数。这种方法判断素数的时间复杂度是 $O(\sqrt{n})$，那我们能不能做的更好呢？</p>
+<p>Miller-Rabin 素性测试，是一种基于二次探测定理和费马小定理的，用于快速测试一个<strong>奇数</strong>是否是素数的方法，对 $n$ 进行一次 Miller-Rabin 素性测试的时间复杂度仅为 $O(\log n)$。通过素性测试的数不一定是素数，可是没通过素性测试的数一定不是素数。用不同的数作为基底对 $n$ 进行多次素性测试，可以使得通过了这些素性测试的 $n$ 是素数的概率尽可能大。</p>
+<p>不过对于范围 $[1,2^{32})$ 的数字，只要它能分别通过 $2,7,61$ 这三个数为基底的 Miller-Rabin 素性测试，它就一定是素数。</p>
+<p>下面给出进行 Miller-Rabin 素性测试的代码，请你调用 Miller-Rabin 素性测试函数实现一个更好的 <code>isprime</code> 函数，并调用 <code>isprime</code> 函数完成本题要求。</p>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><code class="hljs csharp"><span class="hljs-function"><span class="hljs-built_in">int</span> <span class="hljs-title">qpow</span>(<span class="hljs-params"><span class="hljs-built_in">int</span> a, <span class="hljs-built_in">long</span> <span class="hljs-built_in">long</span> n, <span class="hljs-built_in">int</span> mod</span>) <span class="hljs-comment">// 这只是一个快速幂，你可以不用管它</span></span><br>&#123;<br>    <span class="hljs-built_in">int</span> ans = <span class="hljs-number">1</span>;<br>    <span class="hljs-built_in">int</span> <span class="hljs-keyword">base</span> = a;<br>    <span class="hljs-keyword">while</span> (n &gt; <span class="hljs-number">0</span>)<br>    &#123;<br>        <span class="hljs-keyword">if</span> (n &amp; <span class="hljs-number">1</span>)<br>        &#123;<br>            ans = ans * (<span class="hljs-built_in">long</span> <span class="hljs-built_in">long</span>)<span class="hljs-keyword">base</span> % mod;<br>        &#125;<br>        <span class="hljs-keyword">base</span> = (<span class="hljs-built_in">long</span> <span class="hljs-built_in">long</span>)<span class="hljs-keyword">base</span> * <span class="hljs-keyword">base</span> % mod;<br>        n &gt;&gt;= <span class="hljs-number">1</span>;<br>    &#125;<br>    <span class="hljs-keyword">return</span> ans;<br>&#125;<br><br><span class="hljs-comment">/* 如果通过素性测试，那么下面这个函数返回1，否则返回0 */</span><br><span class="hljs-function"><span class="hljs-built_in">int</span> <span class="hljs-title">Miller_Rabin_check</span>(<span class="hljs-params"><span class="hljs-built_in">int</span> a, <span class="hljs-built_in">int</span> n</span>) <span class="hljs-comment">// a是基底，n是你拿来进行素性测试的数</span></span><br>&#123;<br>    <span class="hljs-built_in">int</span> u = n - <span class="hljs-number">1</span>;<br>    <span class="hljs-keyword">while</span> (u % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>)<br>    &#123;<br>        u /= <span class="hljs-number">2</span>;<br>    &#125;<br>    <span class="hljs-built_in">int</span> v = qpow(a, u, n);<br>    <span class="hljs-keyword">if</span> (v == <span class="hljs-number">1</span>)<br>        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>    <span class="hljs-keyword">while</span> (u &lt;= n - <span class="hljs-number">1</span>)<br>    &#123;<br>        <span class="hljs-keyword">if</span> (v == n - <span class="hljs-number">1</span>)<br>            <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>        <span class="hljs-keyword">if</span> (v == <span class="hljs-number">1</span>)<br>            <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>        v = <span class="hljs-number">1l</span>l * v * v % n;<br>        u *= <span class="hljs-number">2</span>;<br>    &#125;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br><span class="hljs-function"><span class="hljs-built_in">int</span> <span class="hljs-title">isprime</span>(<span class="hljs-params"><span class="hljs-built_in">int</span> n</span>)</span><br>&#123;<br>    <span class="hljs-keyword">if</span> (n == <span class="hljs-number">2</span> || n == <span class="hljs-number">7</span> || n == <span class="hljs-number">61</span>) <span class="hljs-comment">// 作为基底的这三个数需要特殊处理</span><br>        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>    <span class="hljs-comment">/* 补全你的代码 */</span><br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h2 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h2><p>第一行一个正整数 t 表示数据组数，$1\le t\le 3\times 10^5$。</p>
+<p>接下来 $t$ 行，每行一个正整数 $n$，$2\le n\le 10^9$。</p>
+<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><p>对于每组数据，如果 $n$ 是素数，输出 <code>Yes</code>，否则输出 <code>No</code>。</p>
+<h2 id="输入样例"><a href="#输入样例" class="headerlink" title="输入样例"></a>输入样例</h2><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs dns"><span class="hljs-number">6</span><br><span class="hljs-number">2</span><br><span class="hljs-number">61</span><br><span class="hljs-number">47</span><br><span class="hljs-number">1145</span><br><span class="hljs-number">1919810</span><br><span class="hljs-number">998244353</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例"><a href="#输出样例" class="headerlink" title="输出样例"></a>输出样例</h2><figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs gams"><span class="hljs-keyword">Yes</span><br><span class="hljs-keyword">Yes</span><br><span class="hljs-keyword">Yes</span><br><span class="hljs-keyword">No</span><br><span class="hljs-keyword">No</span><br><span class="hljs-keyword">Yes</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Not-Hint"><a href="#Not-Hint" class="headerlink" title="Not Hint"></a>Not Hint</h2><p>如果你实在很闲可以看看<a target="_blank" rel="noopener" href="https://oi-wiki.org/math/number-theory/prime/#millerrabin-%E7%B4%A0%E6%80%A7%E6%B5%8B%E8%AF%95">原理</a></p>
+<details>
+    <summary>思路</summary>
+    没有思路，直接用and逻辑检测。唯一需要的是把代码框架写好：输入 --> 处理 --> 输出
+</details>
+
+<h1 id="P-解数织科学"><a href="#P-解数织科学" class="headerlink" title="P 解数织科学"></a><code>P</code> 解数织科学</h1><p>时间限制：3000ms  内存限制：65536kb</p>
+<p>通过率：7&#x2F;20 <code>(35.00%) </code>  正确率：7&#x2F;76 <code>(9.21%)</code></p>
+<h2 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h2><p>某咸鱼同学希望用若干数字描述行和列的涂色情况，如下图所示：</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/m7zo4eck.png" srcset="/img/loading.gif" lazyload alt="img"></p>
+<p>对于第一行，<code>1 1</code>表示有 $2$ 个长度为 $1$ 的 <code>1</code>（涂色）序列；对于第二列，<code>4</code>表示有 $1$ 个长度为 $4$ 的 <code>1</code> （涂色）序列。</p>
+<p>特别的，如果某行或某列没有一个涂色方块，我们用一个 <code>0</code> 表示。</p>
+<p>请你根据给出的行列的情况，输出涂出颜色的地图。</p>
+<h2 id="输入-1"><a href="#输入-1" class="headerlink" title="输入"></a>输入</h2><p>共 $2n+1$ 行。</p>
+<p>第一行为一个正整数 $n$ 。</p>
+<p>接下来 $n$ 行，输入从第一行到最后一行的情况，详见题目描述。</p>
+<p>再接下来 $n$ 行，输入从第一列到最后一列的情况，详见题目描述。</p>
+<p>保证 $n≤15$ ，且一定有解。</p>
+<h2 id="输出-1"><a href="#输出-1" class="headerlink" title="输出"></a>输出</h2><p>$n$ 行，每行 $n$ 个字符（字符仅为 <code>0</code> 或 <code>1</code>），表示涂色后的地图。</p>
+<p>本题采用 $\text{Special Judge}$ ，对于有多解的情况，<strong>请仅输出其中一种</strong>。</p>
+<h2 id="输入样例-1"><a href="#输入样例-1" class="headerlink" title="输入样例"></a>输入样例</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-number">5</span><br><span class="hljs-symbol">1 </span><span class="hljs-number">1</span><br><span class="hljs-symbol">2 </span><span class="hljs-number">2</span><br><span class="hljs-number">3</span><br><span class="hljs-number">2</span><br><span class="hljs-number">2</span><br><span class="hljs-symbol">2 </span><span class="hljs-number">2</span><br><span class="hljs-number">4</span><br><span class="hljs-number">1</span><br><span class="hljs-number">2</span><br><span class="hljs-number">2</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例-1"><a href="#输出样例-1" class="headerlink" title="输出样例"></a>输出样例</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs">10001<br>11011<br>01110<br>11000<br>11000<br></code></pre></td></tr></table></figure>
+
+<h3 id="Thinking"><a href="#Thinking" class="headerlink" title="Thinking"></a>Thinking</h3><blockquote>
+<p>上网搜一下可以知道这还是一个比较要动脑的游戏，起源于国外，也可以搜到一些程序化解法——但是基本不可用，毕竟你从这些人写的博客就知道不仅技术水平低，同时文化水平也高不到哪里去。唯一比较好的一篇中文是<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_44007632/article/details/102010794#:~:text=%E6%95%B0%E7%BB%87%E6%9C%89%E4%B8%A4%E4%B8%AA%E5%BE%88%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84">数织游戏中的程序思维和数织的程序解法-CSDN博客</a>，其中比较有趣的是对于数据结构状态的定义和一些个定理：</p>
+<ul>
+<li>网格每一格拥有三种状态</li>
+<li>定义连续空白条</li>
+<li>定义一个表示函数</li>
+<li>定理，平行传递性，交换不变形</li>
+<li>……</li>
+</ul>
+<p>总的来说就是对现实问题进行数学抽象，建模简化，并进行程序化流程设计……当然，一般解决问题都是这样嘛。不过在思路受阻时宏观的考量的确能给人一些顿悟</p>
+<p>还有一点就是，这个博客可能并不是原版，更多还待发掘。英文就有很多信息了[Solving Nonograms — Nonogram Solver (stevocity.me.uk)](<a target="_blank" rel="noopener" href="https://stevocity.me.uk/nonogram/solve#:~:text=How">https://stevocity.me.uk/nonogram/solve#:~:text=How</a> to solve Nonograms yourself Before attempting to solve a)</p>
+<p><a target="_blank" rel="noopener" href="https://cn.puzzle-nonograms.com/">数织 - 在线解谜游戏 (puzzle-nonograms.com)</a></p>
+<p>原本自己想的是先确定行的数量，然后根据列的数量进行dfs暴力搜索——及时剪枝</p>
+</blockquote>
+<h1 id="Q-逞强好胜的-Yanami-！"><a href="#Q-逞强好胜的-Yanami-！" class="headerlink" title="Q 逞强好胜的 Yanami ！"></a><code>Q</code> 逞强好胜的 Yanami ！</h1><p>时间限制：300ms  内存限制：65536kb</p>
+<p>通过率：100&#x2F;188 <code>(53.19%) </code>  正确率：100&#x2F;721 <code>(13.87%)</code></p>
+<h2 id="题目描述-2"><a href="#题目描述-2" class="headerlink" title="题目描述"></a>题目描述</h2><p>$\text{Yanami}$ 想变得和 $\text{Alice}$ 一样强</p>
+<p>但是现在她还无法做到，她只能研究 $\text{Alice}$ 留下的世纪难题</p>
+<p>$\text{Alice}$ 给 $\text{Yanami}$ 留下了一个 “异或三角形”</p>
+<p>一个 $n$ 层的异或三角形有以下特征：</p>
+<ul>
+<li>第 1 层有 1 个整数，第 2 层有 2 个整数，⋯⋯ ，第 $n$ 层有 $n$ 个整数</li>
+<li>如果用 $a(i,j)$ 表示异或三角形第 $i$ 层从左往右数的第 $j$ 个数 $(1≤j≤i) $，那么对于$ ∀1≤i≤n−1,1≤j≤i$，有 $a(i,j)&#x3D;a(i+1,j)⊕a(i+1,j+1)$ ，即<strong>异或三角形中的每一个数等于其正下方相邻两个数的异或和</strong></li>
+</ul>
+<p>下方就是一个 $5$ 层的“异或三角形”：</p>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs tex">4<br>  4  0<br>2  6   6<br>  3  1   7   1<br>1   2  3   4   5<br></code></pre></td></tr></table></figure>
+
+
+
+<p>对于第 4 层，从左往右有<br>$$<br>a(4,1)&#x3D;a(5,1)⊕a(5,2)&#x3D;1⊕2&#x3D;3\</p>
+<p>a(4,2)&#x3D;a(5,2)⊕a(5,3)&#x3D;2⊕3&#x3D;1\</p>
+<p>a(4,3)&#x3D;a(5,3)⊕a(5,4)&#x3D;3⊕4&#x3D;7\</p>
+<p>a(4,4)&#x3D;a(5,4)⊕a(5,5)&#x3D;4⊕5&#x3D;1<br>$$</p>
+<p>其他层类似</p>
+<p>可以发现，只要确定了最底层的 $n$ 个数字，就可以推导出整个“异或三角形”</p>
+<p>不幸的是，$\text{Alice}$ 给 $\text{Yanami}$ 留下的“异或三角形”，恰好只剩下最底层的 $n$ 个数字，其他数字都不见了</p>
+<p>现在， $\text{Yanami}$ 想要知道“异或三角形”最顶层的那一个数字是什么，你能帮帮她吗？</p>
+<h2 id="输入-2"><a href="#输入-2" class="headerlink" title="输入"></a>输入</h2><p>输入包括两行</p>
+<p>第一行包括一个整数 $n$ ，表示“异或三角形”的层数</p>
+<p>第二行包括 $n$ 个整数$ x_1,x_2,⋯,x_n$ ，表示“异或三角形”最底层的 $n$ 个数</p>
+<h2 id="输出-2"><a href="#输出-2" class="headerlink" title="输出"></a>输出</h2><p>输出包括一行</p>
+<p>第一行包括一个数，表示“异或三角形”最顶端的数值</p>
+<h2 id="输入样例-11"><a href="#输入样例-11" class="headerlink" title="输入样例 11"></a>输入样例 11</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-number">5</span><br><span class="hljs-symbol">1 </span><span class="hljs-number">2</span> <span class="hljs-number">3</span> <span class="hljs-number">4</span> <span class="hljs-number">5</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例-11"><a href="#输出样例-11" class="headerlink" title="输出样例 11"></a>输出样例 11</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">4<br></code></pre></td></tr></table></figure>
+
+<h2 id="输入样例-22"><a href="#输入样例-22" class="headerlink" title="输入样例 22"></a>输入样例 22</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-number">4</span><br><span class="hljs-symbol">1 </span><span class="hljs-number">1</span> <span class="hljs-number">4</span> <span class="hljs-number">5</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例-22"><a href="#输出样例-22" class="headerlink" title="输出样例 22"></a>输出样例 22</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">1<br></code></pre></td></tr></table></figure>
+
+<h2 id="样例解释"><a href="#样例解释" class="headerlink" title="样例解释"></a>样例解释</h2><p>样例 2 的“异或三角形”如下：</p>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs tex">      1<br>    5   4<br>  0   5   1<br>1   1   4   5<br></code></pre></td></tr></table></figure>
+
+
+
+
+
+<p>故答案为 1</p>
+<h2 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h2><ul>
+<li>对于 $35%$ 的数据，$1≤n≤10^3$</li>
+<li>对于 $100%$ 的数据，$1≤n≤10^5,0≤x_i≤10^9$</li>
+</ul>
+<h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><blockquote>
+<p>没错！</p>
+<p>一次又一次地 屡败屡战！</p>
+<p>是眼泪教会我坚强</p>
+<p>我相信</p>
+<p>总有一天 总有一天 会迎来美满结局</p>
+<p>开始转动吧！无与伦比的命运</p>
+<p>——《逞强好胜的女孩》</p>
+</blockquote>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/3mvp8erd.png" srcset="/img/loading.gif" lazyload alt="img"></p>
+<details>
+    <summary>思路</summary>
+    这道题在数量比较小的时候规律还是非常好找的，可以省略中间众多的异或过程，直接计算出需要哪些元素作异或操作就可以。具体方法是从1开始右移一格得到新向量，与原先向量作异或和，n次迭代后得到为1的分量即为需要做异或和操作的元素，否则舍弃。因为计算机中是二进制，所以可以根据二进制表示的周期性来对迭代过程进行加速。但是这题尝试好久都没有得到有效解决，可能是规律找错了。
+    大概有100人通过了，心理挺着急的，为什么别人都会，就我不会？想不出来，前后浪费半天——悲
+</details>
+
+<h1 id="R-摩卡与主唱"><a href="#R-摩卡与主唱" class="headerlink" title="R 摩卡与主唱"></a><code>R</code> 摩卡与主唱</h1><p>时间限制：1000ms  内存限制：65536kb</p>
+<p>通过率：107&#x2F;193 <code>(55.44%) </code>  正确率：107&#x2F;742 <code>(14.42%)</code></p>
+<h2 id="题目描述-3"><a href="#题目描述-3" class="headerlink" title="题目描述"></a>题目描述</h2><p>作为乐队的主唱，Ykn 和 Ran 对音乐有着不同的理解。</p>
+<p>Ykn 在听一首音乐时，会格外关注音乐中<strong>高音转低音</strong>的部分；Ran 在听一首音乐时，会格外关注音乐中<strong>低音转高音</strong>的部分。在听完一次演唱会后，二人对其中的一首曲子格外感兴趣，经过讨论后，二人发现这首曲子所有音符<strong>只由高音和低音组成</strong>，且其中的<strong>高音转低音次数和低音转高音次数是完全相同的</strong>。但是二人只能回忆起其中的部分音符。</p>
+<p>为了能还原这首曲子，Ykn 和 Ran 找到了会编程的 Moca。</p>
+<h2 id="输入-3"><a href="#输入-3" class="headerlink" title="输入"></a>输入</h2><p>第一行一个正整数 $n$ ，表示曲子音符的个数，$1≤n≤100000$ 。</p>
+<p>第二行 $n$ 个字符，表示 $n$ 个音符，每个音符只有 $1\ 0\ ?$ 三种可能的输入，分别表示这个音符是高音音符，低音音符以及回忆不起来的音符。</p>
+<h2 id="输出-3"><a href="#输出-3" class="headerlink" title="输出"></a>输出</h2><p>输出 1 行，代表原曲有多少种可能（由于两个人的记忆可能存在偏差，所以结果为 0 也是有可能的），<strong>由于结果可能很大，你需要将正确的答案对 $10^9+7$ 取模后输出。</strong></p>
+<h2 id="输入样例-2"><a href="#输入样例-2" class="headerlink" title="输入样例"></a>输入样例</h2><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">5</span><br><span class="hljs-attribute">1</span>?<span class="hljs-number">001</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例-2"><a href="#输出样例-2" class="headerlink" title="输出样例"></a>输出样例</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs">2<br></code></pre></td></tr></table></figure>
+<h2 id="THINK"><a href="#THINK" class="headerlink" title="THINK"></a>THINK</h2><blockquote>
+<p>无</p>
+</blockquote>
+<h2 id="样例解释-1"><a href="#样例解释-1" class="headerlink" title="样例解释"></a>样例解释</h2><p>若想符合条件，原曲有 $11001$ 和 $10001$ 两种可能。</p>
+<p>Author：Moca</p>
+<blockquote>
+<p>该题也是，别人都会，为什么就我不会——懊恼。</p>
+<p>应该是一个能在线性时间处理的问题，不然不会有这种数据。所以，处理的时候应该只需要考虑局部就行，最后验证可行性</p>
+<p>Moca是种$Italian$浓缩咖啡:coffee:,还有拿铁，记得大川课上还让我们每次做咖啡给他品，居然把这个忘了……</p>
+</blockquote>
+<h1 id="S-哈希攻击"><a href="#S-哈希攻击" class="headerlink" title="S 哈希攻击"></a><code>S</code> 哈希攻击</h1><p>时间限制：2000ms  内存限制：65536kb</p>
+<p>通过率：18&#x2F;42 <code>(42.86%) </code>  正确率：18&#x2F;147 <code>(12.24%)</code></p>
+<h2 id="题目描述-4"><a href="#题目描述-4" class="headerlink" title="题目描述"></a>题目描述</h2><p>字符串以某种方式映射到整数上的过程，称作「字符串哈希」。由这个字符串经过哈希得到的整数，我们称其为字符串的「哈希值」。以下是一种比较常用的字符串哈希公式：</p>
+<p>$f(s)&#x3D;(∑_{i&#x3D;1}^n a_i×b^n−i)\mod p$</p>
+<p>其中，$a_i$ 是字符串第 $i$ 位对应字符所需要映射的值，$b$ 是小于 $p$ 的正整数，$p$ 是一个大质数。</p>
+<p>当两个字符串完全相同时，它们的哈希值也必定完全相同。可是反之，当两个字符串的哈希值完全相同时，它们本身并不一定会完全相同。因为哈希函数最终对 $p$ 取模的操作，使得无穷无尽的字符串最终只能被映射到 $0∼p−1$ 的正整数上，而这就必定要产生多个不同字符串拥有同一哈希值的情况。这种两个不同的字符串具有相同的哈希值的情况，我们称其为「哈希冲突」</p>
+<p>可是 Gino 并不害怕。他使用如下函数对字符串进行哈希，并且认为你无论如何也无法在短时间内产生无穷多的字符串，并从无穷多的字符串中找到哈希冲突的情况。</p>
+<figure class="highlight ocaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs ocaml"><span class="hljs-built_in">int</span> strhash(<span class="hljs-built_in">char</span> s<span class="hljs-literal">[]</span>, <span class="hljs-built_in">int</span> len, <span class="hljs-built_in">int</span> b, <span class="hljs-built_in">int</span> p)<br>&#123;<br>    <span class="hljs-built_in">int</span> <span class="hljs-keyword">val</span> = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-built_in">int</span> i = <span class="hljs-number">0</span>; i &lt; len; i++)<br>    &#123;<br>        <span class="hljs-keyword">val</span> = (<span class="hljs-number">1l</span>l * <span class="hljs-keyword">val</span> * b + s[i] - <span class="hljs-string">&#x27;a&#x27;</span> + <span class="hljs-number">1</span>) % p;<br>    &#125;<br>    return <span class="hljs-keyword">val</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>请你找到任意两个字符串，使它们满足以下条件：</p>
+<ul>
+<li>仅由小写字母 <code>a-z</code> 组成</li>
+<li>两者长度相同，且长度 $n$ 满足 $1≤n≤104$</li>
+<li>两者不完全相同，却在给定 $b,p$ 的条件下有着一致的哈希值</li>
+</ul>
+<h2 id="输入-4"><a href="#输入-4" class="headerlink" title="输入"></a>输入</h2><p>两个由空格隔开的正整数 $b,p$，含义与题意相同。</p>
+<ul>
+<li>对于 10%的数据，31≤b&lt;p≤1009</li>
+<li>对于 30% 的数据，31≤b&lt;p≤1000033</li>
+<li>对于 100% 的数据，31≤b&lt;p≤1000000007</li>
+</ul>
+<p>所有数据均保证 p 是一个质数。</p>
+<h2 id="输出-4"><a href="#输出-4" class="headerlink" title="输出"></a>输出</h2><p>两行，分别输出你找到的两个字符串，需要满足题目给出的条件。满足条件的字符串有很多组，你只需要输出任意一组即可。</p>
+<h2 id="输入样例-3"><a href="#输入样例-3" class="headerlink" title="输入样例"></a>输入样例</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-symbol">131 </span><span class="hljs-number">1033</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例（答案不唯一）"><a href="#输出样例（答案不唯一）" class="headerlink" title="输出样例（答案不唯一）"></a>输出样例（答案不唯一）</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">vda</span><br><span class="hljs-attribute">ciu</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例解释-2"><a href="#样例解释-2" class="headerlink" title="样例解释"></a>样例解释</h2><p>对于字符串 <code>vdl</code>，其哈希值为 $(22×1312+4×1311+1×1310)\mod 1033&#x3D;378067\mod 1033&#x3D;1022$</p>
+<p>对于字符串 <code>ciu</code>，其哈希值为 $(3×1312+9×1311+10×1310)\mod 1033&#x3D;52672\mod 1033&#x3D;1022$</p>
+<p>两个不同的字符串却有着同样的哈希值，因此这组输出是正确的。</p>
+<p>注意你的输出不必和输出样例相同，只需满足题目条件即可。</p>
+<hr>
+<p>$HASHHACKER$: <img src="https://cfrating.baoshuo.dev/rating?username=cwz2024&style=plastic" srcset="/img/loading.gif" lazyload alt="Codeforces Rating of @cwz2024"></p>
+<h2 id="THINK-1"><a href="#THINK-1" class="headerlink" title="THINK"></a>THINK</h2><blockquote>
+<p>有点思路。解法一定跟生日问题有关。</p>
+<p>可以思考这个哈希函数的计算式，二者相减可以得到一个多项式，而系数正好就是一个$b$ 进制数，但是要求是 ASCll 码中的小写字符，所以需要转化成一个系数相差不超过26的$b$进制</p>
+<p>问题成功转化</p>
+</blockquote>
+<h1 id="T-多重哈希攻击"><a href="#T-多重哈希攻击" class="headerlink" title="T 多重哈希攻击"></a><code>T</code> 多重哈希攻击</h1><p>时间限制：2000ms  内存限制：65536kb</p>
+<p>通过率：11&#x2F;22 <code>(50.00%) </code>  正确率：11&#x2F;114 <code>(9.65%)</code></p>
+<p><strong>本题是题目《哈希攻击》的困难版本</strong>。</p>
+<h2 id="题目描述-5"><a href="#题目描述-5" class="headerlink" title="题目描述"></a>题目描述</h2><p>在 $\mathscr{HASHHACKER}$ 的攻击下，Gino 自认为没有破绽的字符串哈希被攻破了！可是 Gino 并不打算放弃。于是，他找到了一种叫「多重哈希」的技术。</p>
+<p>我们知道，字符串可以通过以下方式映射到一个整数上：<br>$$<br>f(s)&#x3D;(∑_{i&#x3D;1}^n a_i×b^n−i)\mod p<br>$$<br>其中，$a_i$ 是字符串第 $i$ 位对应字符所需要映射的值，$b$ 是小于 $p$ 的正整数，$p$ 是一个大质数。</p>
+<p>而「多重哈希」，会使用两组及以上的 $b,p$ 将字符串同时映射到两个及以上的整数上，以大大降低哈希冲突的概率。</p>
+<p>Gino 使用的哈希函数与之前一样：</p>
+<figure class="highlight ocaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs ocaml"><span class="hljs-built_in">int</span> strhash(<span class="hljs-built_in">char</span> s<span class="hljs-literal">[]</span>, <span class="hljs-built_in">int</span> len, <span class="hljs-built_in">int</span> b, <span class="hljs-built_in">int</span> p)<br>&#123;<br>    <span class="hljs-built_in">int</span> <span class="hljs-keyword">val</span> = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-built_in">int</span> i = <span class="hljs-number">0</span>; i &lt; len; i++)<br>    &#123;<br>        <span class="hljs-keyword">val</span> = (<span class="hljs-number">1l</span>l * <span class="hljs-keyword">val</span> * b + s[i] - <span class="hljs-string">&#x27;a&#x27;</span> + <span class="hljs-number">1</span>) % p;<br>    &#125;<br>    return <span class="hljs-keyword">val</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>不同的是，他这次决定使用两组不相同的 $b,p$ 进行哈希。</p>
+<p>请你找到任意两个字符串，使它们满足以下条件：</p>
+<ul>
+<li>仅由小写字母 <code>a-z</code> 组成</li>
+<li>两者长度相同，且长度 n 满足 $1≤n≤104$</li>
+<li>两者不完全相同，却在给定的两组 $b,p$ 的条件下都有着一致的哈希值</li>
+</ul>
+<h2 id="输入-5"><a href="#输入-5" class="headerlink" title="输入"></a>输入</h2><p>共两行，每行两个由空格隔开的正整数 b,p，含义与题意相同。</p>
+<ul>
+<li>对于 $30%$ 的数据，$31≤b&lt;p≤33331$</li>
+<li>对于 $100%$ 的数据，$31≤b&lt;p≤1000000007$</li>
+</ul>
+<p>所有数据均保证 $p$ 是一个质数。</p>
+<p>所有数据均保证 $b_1≠b_2$ 与 $p_1≠p_2$ 至少有一个成立</p>
+<h2 id="输出-5"><a href="#输出-5" class="headerlink" title="输出"></a>输出</h2><p>两行，分别输出你找到的两个字符串，需要满足题目给出的条件。满足条件的字符串有很多组，你只需要输出任意一组即可。</p>
+<h2 id="输入样例-4"><a href="#输入样例-4" class="headerlink" title="输入样例"></a>输入样例</h2><figure class="highlight basic"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs basic"><span class="hljs-symbol">31 </span><span class="hljs-number">1009</span><br><span class="hljs-symbol">114 </span><span class="hljs-number">1033</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="输出样例（答案不唯一）-1"><a href="#输出样例（答案不唯一）-1" class="headerlink" title="输出样例（答案不唯一）"></a>输出样例（答案不唯一）</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">rkfmftoxsjtoxsjrkfmfrkfmftoxsjrkfmfrkfmfrkfmftoxsj</span><br><span class="hljs-attribute">toxsjtoxsjtoxsjtoxsjrkfmftoxsjrkfmftoxsjrkfmfrkfmf</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="样例解释-3"><a href="#样例解释-3" class="headerlink" title="样例解释"></a>样例解释</h2><p>$b&#x3D;31,p&#x3D;1009$ 的情况下，两字符串的哈希值都为 $0$。</p>
+<p>$b&#x3D;114,p&#x3D;1033$ 的情况下，两字符串的哈希值都为 $1$。</p>
+<h2 id="Hint"><a href="#Hint" class="headerlink" title="Hint"></a>Hint</h2><p>为了降低思考难度，本题的输出样例极其富有启发性。</p>
+<p>对于随机数生成函数 <code>rand</code> 来说，请注意，它的随机性有可能在你的本地运行环境下的表现并不好。</p>
+<p>在出题者的本地环境下，<code>RAND_MAX</code>:$ 32767$，即 $2^{15}-1$</p>
+<ul>
+<li>二进制表示下，生成的随机数的最低位的循环节：$2^{17}$</li>
+<li>二进制表示下，生成的随机数的次低位的循环节：$2^{18}$</li>
+<li>二进制表示下，生成的随机数的第三低位的循环节：$2^{19}$</li>
+</ul>
+<p>也许可以解答你在本地调试时遇到的 “灵异事件”。</p>
+<details>
+    <summary>注</summary>
+    这题真是不会了，毕竟和密码相关邻域很紧密。之前学CTF的时候连进门都算不上，这里看不懂也难怪
+</details>
+
+
+
+<blockquote>
+<p>同样是哈希攻击，但是最近 bing 的搜索结果却不太好，浏览器还是要学一学搜索语法才行。而且对于专业邻域的知识，当然是要到专家数据库中搜索，而不是在一般互联网的垃圾堆中浪费时间和生命</p>
+</blockquote>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/I-%F0%9F%92%96-PUAA/" class="print-no-link">#I 💖 [PUAA]</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Summary2</div>
+      <div>http://example.com/2024/10/09/Summary2/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>独步星尘</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年10月9日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2024/10/09/Summary3/" title="Summary3">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Summary3</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/10/09/Summary1/" title="Summary1">
+                        <span class="hidden-mobile">Summary1</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
